@@ -1,0 +1,106 @@
+Country Name,Country Code,CO2 emissions (kt),variable,value
+Australia,AUS,369880.0,CO2 emissions from electricity and heat production (% of total fuel combustion),58.3578575632725
+Brazil,BRA,506780.0,CO2 emissions from electricity and heat production (% of total fuel combustion),26.3098189151716
+Canada,CAN,561830.0,CO2 emissions from electricity and heat production (% of total fuel combustion),38.7292718096611
+China,CHN,9894940.0,CO2 emissions from electricity and heat production (% of total fuel combustion),52.2530087069823
+France,FRA,304530.0,CO2 emissions from electricity and heat production (% of total fuel combustion),13.7951554186502
+Germany,DEU,737490.0,CO2 emissions from electricity and heat production (% of total fuel combustion),48.4673773279688
+India,IND,2136870.0,CO2 emissions from electricity and heat production (% of total fuel combustion),53.605291953636
+Indonesia,IDN,490050.0,CO2 emissions from electricity and heat production (% of total fuel combustion),44.2512542093327
+"Iran, Islamic Rep.",IRN,610670.0,CO2 emissions from electricity and heat production (% of total fuel combustion),34.3451599561222
+Italy,ITA,327490.0,CO2 emissions from electricity and heat production (% of total fuel combustion),35.5603515686091
+Japan,JPN,1219820.0,CO2 emissions from electricity and heat production (% of total fuel combustion),53.0964219311308
+"Korea, Rep.",KOR,586000.0,CO2 emissions from electricity and heat production (% of total fuel combustion),60.4850213980029
+Mexico,MEX,458320.0,CO2 emissions from electricity and heat production (% of total fuel combustion),44.0661839784647
+Poland,POL,285740.0,CO2 emissions from electricity and heat production (% of total fuel combustion),55.6085149082569
+Russian Federation,RUS,1606860.0,CO2 emissions from electricity and heat production (% of total fuel combustion),61.1100132874519
+Saudi Arabia,SAU,536810.0,CO2 emissions from electricity and heat production (% of total fuel combustion),49.1580962908861
+South Africa,ZAF,447980.0,CO2 emissions from electricity and heat production (% of total fuel combustion),67.480622813636
+Turkey,TUR,340640.0,CO2 emissions from electricity and heat production (% of total fuel combustion),46.690111035134
+United Kingdom,GBR,414850.0,CO2 emissions from electricity and heat production (% of total fuel combustion),41.9306590819929
+United States,USA,5102580.0,CO2 emissions from electricity and heat production (% of total fuel combustion),45.9904061079438
+World,WLD,33085191.9751693,CO2 emissions from electricity and heat production (% of total fuel combustion),49.040196524616
+Australia,AUS,369880.0,CO2 emissions from manufacturing industries and construction (% of total fuel combustion),11.4880410936915
+Brazil,BRA,506780.0,CO2 emissions from manufacturing industries and construction (% of total fuel combustion),20.6020755430444
+Canada,CAN,561830.0,CO2 emissions from manufacturing industries and construction (% of total fuel combustion),12.0439798125451
+China,CHN,9894940.0,CO2 emissions from manufacturing industries and construction (% of total fuel combustion),31.7152270946499
+France,FRA,304530.0,CO2 emissions from manufacturing industries and construction (% of total fuel combustion),15.6958835060207
+Germany,DEU,737490.0,CO2 emissions from manufacturing industries and construction (% of total fuel combustion),12.4421032256281
+India,IND,2136870.0,CO2 emissions from manufacturing industries and construction (% of total fuel combustion),26.4082746191209
+Indonesia,IDN,490050.0,CO2 emissions from manufacturing industries and construction (% of total fuel combustion),18.3950702128147
+"Iran, Islamic Rep.",IRN,610670.0,CO2 emissions from manufacturing industries and construction (% of total fuel combustion),16.6555773346041
+Italy,ITA,327490.0,CO2 emissions from manufacturing industries and construction (% of total fuel combustion),11.1945200337806
+Japan,JPN,1219820.0,CO2 emissions from manufacturing industries and construction (% of total fuel combustion),19.180905748635
+"Korea, Rep.",KOR,586000.0,CO2 emissions from manufacturing industries and construction (% of total fuel combustion),13.6559764710026
+Mexico,MEX,458320.0,CO2 emissions from manufacturing industries and construction (% of total fuel combustion),13.4479717813051
+Poland,POL,285740.0,CO2 emissions from manufacturing industries and construction (% of total fuel combustion),10.2780963302752
+Russian Federation,RUS,1606860.0,CO2 emissions from manufacturing industries and construction (% of total fuel combustion),12.3212156314947
+Saudi Arabia,SAU,536810.0,CO2 emissions from manufacturing industries and construction (% of total fuel combustion),24.1043052567165
+South Africa,ZAF,447980.0,CO2 emissions from manufacturing industries and construction (% of total fuel combustion),12.5820243729565
+Turkey,TUR,340640.0,CO2 emissions from manufacturing industries and construction (% of total fuel combustion),14.6169125069193
+United Kingdom,GBR,414850.0,CO2 emissions from manufacturing industries and construction (% of total fuel combustion),9.59690074539035
+United States,USA,5102580.0,CO2 emissions from manufacturing industries and construction (% of total fuel combustion),8.65556072879578
+World,WLD,33085191.9751693,CO2 emissions from manufacturing industries and construction (% of total fuel combustion),19.9603176386235
+Australia,AUS,369880.0,CO2 emissions from other sectors excluding residential buildings and commercial and public services (% of total fuel combustion),1.690834180534
+Brazil,BRA,506780.0,CO2 emissions from other sectors excluding residential buildings and commercial and public services (% of total fuel combustion),4.04604848535776
+Canada,CAN,561830.0,CO2 emissions from other sectors excluding residential buildings and commercial and public services (% of total fuel combustion),2.91095890410959
+China,CHN,9894940.0,CO2 emissions from other sectors excluding residential buildings and commercial and public services (% of total fuel combustion),2.07462121545599
+France,FRA,304530.0,CO2 emissions from other sectors excluding residential buildings and commercial and public services (% of total fuel combustion),4.69756370764492
+Germany,DEU,737490.0,CO2 emissions from other sectors excluding residential buildings and commercial and public services (% of total fuel combustion),0.053921771952385
+India,IND,2136870.0,CO2 emissions from other sectors excluding residential buildings and commercial and public services (% of total fuel combustion),3.01831487322186
+Indonesia,IDN,490050.0,CO2 emissions from other sectors excluding residential buildings and commercial and public services (% of total fuel combustion),1.43403660687696
+"Iran, Islamic Rep.",IRN,610670.0,CO2 emissions from other sectors excluding residential buildings and commercial and public services (% of total fuel combustion),2.13274829613912
+Italy,ITA,327490.0,CO2 emissions from other sectors excluding residential buildings and commercial and public services (% of total fuel combustion),2.22701823527572
+Japan,JPN,1219820.0,CO2 emissions from other sectors excluding residential buildings and commercial and public services (% of total fuel combustion),0.208643564439732
+"Korea, Rep.",KOR,586000.0,CO2 emissions from other sectors excluding residential buildings and commercial and public services (% of total fuel combustion),1.45295081101073
+Mexico,MEX,458320.0,CO2 emissions from other sectors excluding residential buildings and commercial and public services (% of total fuel combustion),2.06998978928803
+Poland,POL,285740.0,CO2 emissions from other sectors excluding residential buildings and commercial and public services (% of total fuel combustion),3.39019495412844
+Russian Federation,RUS,1606860.0,CO2 emissions from other sectors excluding residential buildings and commercial and public services (% of total fuel combustion),1.15089775476134
+Saudi Arabia,SAU,536810.0,CO2 emissions from other sectors excluding residential buildings and commercial and public services (% of total fuel combustion),0.0
+South Africa,ZAF,447980.0,CO2 emissions from other sectors excluding residential buildings and commercial and public services (% of total fuel combustion),2.41671811052427
+Turkey,TUR,340640.0,CO2 emissions from other sectors excluding residential buildings and commercial and public services (% of total fuel combustion),3.70551268275211
+United Kingdom,GBR,414850.0,CO2 emissions from other sectors excluding residential buildings and commercial and public services (% of total fuel combustion),0.958709297763831
+United States,USA,5102580.0,CO2 emissions from other sectors excluding residential buildings and commercial and public services (% of total fuel combustion),0.943933882126111
+World,WLD,33085191.9751693,CO2 emissions from other sectors excluding residential buildings and commercial and public services (% of total fuel combustion),1.95523249357617
+Australia,AUS,369880.0,CO2 emissions from residential buildings and commercial and public services (% of total fuel combustion),3.7214404194981
+Brazil,BRA,506780.0,CO2 emissions from residential buildings and commercial and public services (% of total fuel combustion),4.28973572538969
+Canada,CAN,561830.0,CO2 emissions from residential buildings and commercial and public services (% of total fuel combustion),14.5241528478731
+China,CHN,9894940.0,CO2 emissions from residential buildings and commercial and public services (% of total fuel combustion),5.35833766188032
+France,FRA,304530.0,CO2 emissions from residential buildings and commercial and public services (% of total fuel combustion),23.4003080369644
+Germany,DEU,737490.0,CO2 emissions from residential buildings and commercial and public services (% of total fuel combustion),17.6725151050092
+India,IND,2136870.0,CO2 emissions from residential buildings and commercial and public services (% of total fuel combustion),5.49000579302559
+Indonesia,IDN,490050.0,CO2 emissions from residential buildings and commercial and public services (% of total fuel combustion),5.11075985613818
+"Iran, Islamic Rep.",IRN,610670.0,CO2 emissions from residential buildings and commercial and public services (% of total fuel combustion),21.9388947832185
+Italy,ITA,327490.0,CO2 emissions from residential buildings and commercial and public services (% of total fuel combustion),18.0663726502143
+Japan,JPN,1219820.0,CO2 emissions from residential buildings and commercial and public services (% of total fuel combustion),9.97703238181772
+"Korea, Rep.",KOR,586000.0,CO2 emissions from residential buildings and commercial and public services (% of total fuel combustion),8.12771877916909
+Mexico,MEX,458320.0,CO2 emissions from residential buildings and commercial and public services (% of total fuel combustion),5.32349391998515
+Poland,POL,285740.0,CO2 emissions from residential buildings and commercial and public services (% of total fuel combustion),15.0480217889908
+Russian Federation,RUS,1606860.0,CO2 emissions from residential buildings and commercial and public services (% of total fuel combustion),9.17243024087765
+Saudi Arabia,SAU,536810.0,CO2 emissions from residential buildings and commercial and public services (% of total fuel combustion),0.821176888608145
+South Africa,ZAF,447980.0,CO2 emissions from residential buildings and commercial and public services (% of total fuel combustion),5.46905366165947
+Turkey,TUR,340640.0,CO2 emissions from residential buildings and commercial and public services (% of total fuel combustion),15.1574354465827
+United Kingdom,GBR,414850.0,CO2 emissions from residential buildings and commercial and public services (% of total fuel combustion),19.0613966261279
+United States,USA,5102580.0,CO2 emissions from residential buildings and commercial and public services (% of total fuel combustion),11.0119179863259
+World,WLD,33085191.9751693,CO2 emissions from residential buildings and commercial and public services (% of total fuel combustion),8.59532015166853
+Australia,AUS,369880.0,CO2 emissions from transport (% of total fuel combustion),24.7445021135427
+Brazil,BRA,506780.0,CO2 emissions from transport (% of total fuel combustion),44.7523213310365
+Canada,CAN,561830.0,CO2 emissions from transport (% of total fuel combustion),31.7934390771449
+China,CHN,9894940.0,CO2 emissions from transport (% of total fuel combustion),8.59869527322669
+France,FRA,304530.0,CO2 emissions from transport (% of total fuel combustion),42.4145897507701
+Germany,DEU,737490.0,CO2 emissions from transport (% of total fuel combustion),21.3654651789788
+India,IND,2136870.0,CO2 emissions from transport (% of total fuel combustion),11.4786078913882
+Indonesia,IDN,490050.0,CO2 emissions from transport (% of total fuel combustion),30.8065883215357
+"Iran, Islamic Rep.",IRN,610670.0,CO2 emissions from transport (% of total fuel combustion),24.9294178999802
+Italy,ITA,327490.0,CO2 emissions from transport (% of total fuel combustion),32.9548653467205
+Japan,JPN,1219820.0,CO2 emissions from transport (% of total fuel combustion),17.5369963739768
+"Korea, Rep.",KOR,586000.0,CO2 emissions from transport (% of total fuel combustion),16.2783325408147
+Mexico,MEX,458320.0,CO2 emissions from transport (% of total fuel combustion),35.092360530957
+Poland,POL,285740.0,CO2 emissions from transport (% of total fuel combustion),15.668004587156
+Russian Federation,RUS,1606860.0,CO2 emissions from transport (% of total fuel combustion),16.244761677626
+Saudi Arabia,SAU,536810.0,CO2 emissions from transport (% of total fuel combustion),25.9183955466946
+South Africa,ZAF,447980.0,CO2 emissions from transport (% of total fuel combustion),12.0492946475524
+Turkey,TUR,340640.0,CO2 emissions from transport (% of total fuel combustion),19.833284490899
+United Kingdom,GBR,414850.0,CO2 emissions from transport (% of total fuel combustion),28.452334248725
+United States,USA,5102580.0,CO2 emissions from transport (% of total fuel combustion),33.3979881032647
+World,WLD,33085191.9751693,CO2 emissions from transport (% of total fuel combustion),20.4490615718503

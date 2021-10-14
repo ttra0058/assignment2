@@ -1,0 +1,56 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 650,
+  "height": 600,
+  "data": {
+    "url": "data/air_aggregated2.csv"
+  },
+  "config": {
+    "background": null
+  },
+  "mark": "bar",
+  "encoding": {
+    "y": {
+      "field": "Country Name",
+      "type": "nominal",
+      "title": "",
+      "sort": {
+        "field": "CO2 emissions (kt)",
+        "order": "descending"
+      }
+    },
+    "x": {
+      "aggregate": "sum",
+      "field": "value",
+      "stack": "normalize",
+      "axis": {
+        "format": ".0%",
+        "title": "",
+        "tickCount": 5,
+        "grid": false
+      }
+    },
+    "color": {
+      "field": "variable",
+      "type": "nominal",
+      "scale": {
+        "domain": [
+          "CO2 emissions from electricity and heat production (% of total fuel combustion)",
+          "CO2 emissions from manufacturing industries and construction (% of total fuel combustion)",
+          "CO2 emissions from other sectors excluding residential buildings and commercial and public services (% of total fuel combustion)",
+          "CO2 emissions from residential buildings and commercial and public services (% of total fuel combustion)",
+          "CO2 emissions from transport (% of total fuel combustion)"
+        ],
+        "range": [
+          "#e7ba52",
+          "#aec7e8",
+          "#c7c7c7",
+          "#1f77b4",
+          "#9467bd"
+        ]
+      },
+      "legend":{"labelExpr": "{'CO2 emissions from electricity and heat production (% of total fuel combustion)': 'Electricity and heat production', 'CO2 emissions from manufacturing industries and construction (% of total fuel combustion)':'Manufacturing industries and construction', 'CO2 emissions from other sectors excluding residential buildings and commercial and public services (% of total fuel combustion)': 'Other', 'CO2 emissions from residential buildings and commercial and public services (% of total fuel combustion)':'Residential buildings and public services', 'CO2 emissions from transport (% of total fuel combustion)':'Transport'}[datum.label]"},
+      "title": "Sections"
+    }
+  }
+}

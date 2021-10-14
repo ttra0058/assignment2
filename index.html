@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+
+  <!-- Import pure.css -->
+  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css"
+    integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Google font -->
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700;900&display=swap" rel="stylesheet">
+
+  <!-- CSS file -->
+  <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
+
+</head>
+
+<body>
+  <div class="page">
+
+    <h1>Despite many efforts to address Air Pollution issues, the current situation is still seriously alarming.</h1>
+    <h2>CO2 emissions per capita between 1960 and 2018</h2>
+    <div class="pure-g">
+      <div class="pure-u-1-1">
+        <p> In 2018 carbon dioxide (CO2) accounted for 81 percent of the country’s total greenhouse gas emissions. By trapping the earth’s heat in the atmosphere, greenhouse gases lead to warmer temperatures, which in turn lead to the hallmarks of climate change: rising sea levels, more extreme weather, heat-related deaths, and the increased transmission of infectious diseases.</p>
+      </div>
+    </div>
+    <!-- pure grid group -->
+    <div class="pure-g">
+      <div class="pure-u-1-1">
+        <div id="vis1" class="vis-container"></div>
+      </div>
+    </div>
+    <!-- end pure grid group -->
+    <br>
+
+      <hr class="hr3">
+
+    <h2>Causes of CO2 emissions by fuel compustion</h2>
+    <h3>For 20 countries with the most CO2 emmisions in 2014</h3>
+    <!-- pure grid group -->
+    <div class="pure-g">
+      <div class="pure-u-1-3">
+        <p>Explanation Placeholder</p>
+      </div>
+      <div class="pure-u-2-3">
+        <div id="vis2" class="vis-container"></div>
+      </div>
+    </div>
+    <!-- end pure grid group -->
+    <br>
+
+    <hr class="hr3">
+
+
+    <h2>PM2.5 mean annual concentration</h2>
+    <div class="pure-g">
+      <div class="pure-u-1-2">
+        <p>According to WHO, PM is a common proxy indicator for air pollution. It affects more people than any other pollutant. The major components of PM are sulfate, nitrates, ammonia, sodium chloride, black carbon, mineral dust and water. It consists of a complex mixture of solid and liquid particles of organic and inorganic substances suspended in the air.</p>
+      </div>
+      <div class="pure-u-1-2">
+        <p>While particles  with a diameter of 10 microns or less, (≤ PM10) can penetrate and lodge deep inside the lungs, the even more health-damaging particles are those with a diameter of 2.5 microns or less, (≤ PM2.5). PM2.5  can penetrate the lung barrier and enter the blood system. Chronic exposure to particles contributes to the risk of developing cardiovascular and respiratory diseases, as well as of lung cancer.
+        </div>
+    </div>
+    <!-- pure grid group -->
+    <div class="pure-g">
+      <div class="pure-u-1-1">
+        <div id="vis3" class="vis-container"></div>
+      </div>
+    </div>
+    <!-- end pure grid group -->
+    <br>
+
+    <hr class="hr3">
+
+  </div>
+
+
+
+  <script type="text/javascript">
+
+    var spec2 = "js/v6.vg.json";
+    vegaEmbed('#vis1', spec2, { "actions": false }).then(function (result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+  </script>
+
+  <script type="text/javascript">
+
+    var spec2 = "js/v1.vg.json";
+    vegaEmbed('#vis2', spec2, { "actions": false }).then(function (result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+  </script>
+
+  <script type="text/javascript">
+
+    var spec2 = "js/v2.vg.json";
+    vegaEmbed('#vis3', spec2, { "actions": false }).then(function (result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+  </script>
+
+</body>
+
+</html>
