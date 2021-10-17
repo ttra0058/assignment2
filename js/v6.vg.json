@@ -2,11 +2,11 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "config": {
         "background": null
-      },
+    },
     "vconcat": [
         {
-            "width": 1200,
-            "height": 600,
+            "width": 970,
+            "height": 500,
             "projection": {
                 "type": "equalEarth"
             },
@@ -63,59 +63,143 @@
                             "filter": "datum['CO2 emissions (metric tons per capita)'] != 0"
                         }
                     ],
-                    "mark": {
-                        "type": "geoshape",
-                        "stroke": "white"
+                    "layer": [
+                        {
+                            "mark": {
+                                "type": "geoshape",
+                                "stroke": "white"
+                            },
+                            "encoding": {
+                                "shape": {
+                                    "field": "geo",
+                                    "type": "geojson"
+                                },
+                                "color": {
+                                    "field": "CO2 emissions (metric tons per capita)",
+                                    "type": "quantitative",
+                                    "scale": {
+                                        "type": "linear",
+                                        "domain": [
+                                            0,
+                                            40
+                                        ],
+                                        "scheme": {
+                                            "name": "redyellowgreen",
+                                            "extent": [
+                                                0.6,
+                                                0
+                                            ]
+                                        }
+                                    },
+                                    "legend": {
+                                        "title": "Metric Tons",
+                                        "offset": 0
+                                    }
+                                },
+                                "tooltip": [
+                                    {
+                                        "field": "Country Name",
+                                        "type": "nominal",
+                                        "title": "Country"
+                                    },
+                                    {
+                                        "field": "CO2 emissions (metric tons per capita)",
+                                        "type": "quantitative"
+                                    },
+                                    {
+                                        "field": "Year",
+                                        "type": "temporal",
+                                        "format": "%Y"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "data": {
+                        "url": "data/annotation.csv",
+                        "format": {}
                     },
+                    "transform": [
+                        {
+                            "timeUnit": "year",
+                            "field": "startyear",
+                            "as": "new_startyear"
+                        },
+                        {
+                            "timeUnit": "year",
+                            "field": "endyear",
+                            "as": "new_endyear"
+                        },
+                        {"filter" : "datum.new_startyear <= index.Year"},
+                        {"filter" : "datum.new_endyear >= index.Year"}
+                    ],
                     "encoding": {
-                        "shape": {
-                            "field": "geo",
-                            "type": "geojson"
+                        "longitude": {
+                            "field": "lon",
+                            "type": "quantitative"
                         },
-                        "color": {
-                            "field": "CO2 emissions (metric tons per capita)",
-                            "type": "quantitative",
-                            "scale": {
-                                "type": "linear",
-                                "domain": [
-                                    0,
-                                    40
-                                ],
-                                "scheme": {
-                                    "name": "redyellowgreen",
-                                    "extent": [
-                                        0.6,
-                                        0
-                                    ]
+                        "latitude": {
+                            "field": "lat",
+                            "type": "quantitative"
+                        },
+                        "text": {
+                            "field": "text"
+                        }
+                    },
+                    "layer": [
+                        {
+                            "transform": [
+                                {
+                                    "filter": "datum.show == 'yes'"
+                                },
+                                {
+                                    "filter": "datum.large == 'no'"
                                 }
-                            },
-                            "legend": {
-                                "title": "Metric Tons"
+                            ],
+                            "mark":{
+                                "type": "point",
+                                "shape": "diamond",
+                                "size":100,
+                                "color": "black"
                             }
                         },
-                        "tooltip": [
-                            {
-                                "field": "Country Name",
-                                "type": "nominal",
-                                "title": "Country"
-                            },
-                            {
-                                "field": "CO2 emissions (metric tons per capita)",
-                                "type": "quantitative"
-                            },
-                            {
-                                "field": "Year",
-                                "type": "temporal",
-                                "format": "%Y"
+                        {
+                            "transform": [
+                                {
+                                    "filter": "datum.show == 'yes'"
+                                },
+                                {
+                                    "filter": "datum.large == 'yes'"
+                                }
+                            ],
+                            "mark":{
+                                "type": "point",
+                                "shape": "diamond",
+                                "size":1000,
+                                "color": "black"
                             }
-                        ]
-                    }
+                        },
+                        {
+                            "mark": {
+                                "type": "text",
+                                "align": "left",
+                                "dx": 20
+                            },
+                            "encoding": {
+                                "text": {
+                                    "field": "text"
+                                }
+                            }
+                        }
+                    ]
                 }
             ]
         },
         {
-            "width": 1200,
-            "height": 200,
+            "width": 970,
+            "height": 150,
             "title": "Use this line chart to filter out the data based on time",
             "data": {
                 "url": "data/air_reshaped.csv"
@@ -148,7 +232,7 @@
                     "params": [
                         {
                             "name": "index",
-                            "value": 2005,
+                            "value": 1514764800000,
                             "select": {
                                 "type": "point",
                                 "encodings": [
@@ -281,12 +365,8 @@
                                 "fontWeight": 100
                             },
                             "encoding": {
-                                "text": {
-                                    "field": "Year",
-                                    "timeUnit": "year"
-                                },
                                 "y": {
-                                    "value": 310
+                                    "value": 150
                                 }
                             }
                         }

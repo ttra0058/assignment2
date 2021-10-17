@@ -3,10 +3,10 @@
   "config": {
     "background": null
   },
-  "vconcat": [
+  "hconcat": [
       {
-          "width": 1200,
-          "height": 600,
+          "width": 670,
+          "height": 350,
           "title": {
               "text": "Year 1990",
               "fontSize": 15
@@ -82,18 +82,19 @@
                               "type": "pow",
                               "domain": [
                                   0,
-                                  50
+                                  90
                               ],
                               "scheme": {
                                   "name": "redyellowgreen",
                                   "extent": [
-                                      0.7,
+                                      0.6,
                                       0
                                   ]
                               }
                           },
                           "legend": {
-                              "title": "μg/m3"
+                              "title": "μg/m3",
+                              "orient":"bottom"
                           }
                       },
                       "tooltip": [
@@ -117,8 +118,8 @@
           ]
       },
       {
-        "width": 1200,
-        "height": 600,
+        "width": 670,
+        "height":350,
         "title": {
             "text": "Year 2017",
             "fontSize": 15
@@ -188,24 +189,26 @@
                         "type": "geojson"
                     },
                     "color": {
+                        
                         "field": "mean annual exposure (micrograms per cubic meter)",
                         "type": "quantitative",
                         "scale": {
                             "type": "pow",
                             "domain": [
                                 0,
-                                50
+                                90
                             ],
                             "scheme": {
                                 "name": "redyellowgreen",
                                 "extent": [
-                                    0.7,
+                                    0.6,
                                     0
                                 ]
                             }
                         },
                         "legend": {
-                            "title": "μg/m3"
+                            "title": "μg/m3",
+                            "gradientLength": 400
                         }
                     },
                     "tooltip": [
