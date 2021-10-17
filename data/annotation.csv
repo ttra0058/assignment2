@@ -1,0 +1,8 @@
+lat,lon,startyear,endyear,text,show,large
+25,53.5,1969,1990,"UAE and Qatar with comical amount of CO2 emission per capita since 1969","yes","yes"
+60,40,1991,2000,"Since the dissolution of Soviet Union,","yes","no"
+55,38,1991,2000,"CO2 emission per capita for Russia has dropped significantly","no","no"
+35,100,2002,2019,"With the current development in economics,","yes","no"
+31,98,2002,2019,"China has been producing more and more CO2 per capita","no","no"
+-27, 125,1959,2019,"Australia has consistently been among some of","yes","no"
+-30, 126.5,1959,2019,"the countries with the most CO2 emissions","no","no"
