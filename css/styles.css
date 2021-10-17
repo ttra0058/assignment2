@@ -1,15 +1,42 @@
 .vis-container {
     width: 100%;
-    align-content: center;
+    align-content: center
 }
 
 .page {
     width: 1400px;
     background-color: #fff9f0;
     margin: auto;
-    padding: 50px;
+    padding: 100px;
     padding-top: 10px;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+h2{
+    font-size: 30px;
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+}
+
+.smallp {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16.3px;
+    font-weight: 300;
+    padding: 10px;
+}
+
+.conclusion{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 23px;
 }
 
 .hr3 {
